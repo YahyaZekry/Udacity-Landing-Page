@@ -41,7 +41,7 @@ function navList() {
 
     list.innerHTML = `<a class="menu__link" data-id="${sectionId}">${sectionName}</a>`;
     nav.appendChild(list);
-    // console.log(`check here: ${sectionId}`);
+    console.log("hello");
   });
 }
 
