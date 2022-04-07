@@ -22,9 +22,6 @@
  * Define Global Variables
  *
  */
-
-// Sections=>array.SelectAllSec=, Nav=idNav, ac=.viewport
-// const sections = Array.from(document.querySelectorAll("Section"));
 const sections = document.querySelectorAll("section");
 const nav = document.getElementById("navbar__list");
 const activeContainer = document.querySelectorAll(".landing__container");
